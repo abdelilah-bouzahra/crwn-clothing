@@ -2,7 +2,7 @@ import React from 'react';
 import './collection-item.styles.scss';
 
 const CollectionItem = ({id, name, price, imageUrl}) => (
-    <dv className='collection-item'>
+    <div className='collection-item'>
         <div
             className='image'
             style={{
@@ -12,7 +12,7 @@ const CollectionItem = ({id, name, price, imageUrl}) => (
             <span className='name'>{name}</span>
             <span className='price'>{price}</span>
         </div>
-    </dv>
+    </div>
 );
 
 export default CollectionItem;
